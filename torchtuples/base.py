@@ -263,14 +263,14 @@ class Model(object):
         val_batch_size=8224,
         **kwargs,
     ):
-        """Fit  model with inputs and targets.
+        """Fit model with inputs and targets.
 
         Arguments:
             input {np.array, tensor or tuple} -- Input (x) passed to net.
             target {np.array, tensor or tuple} -- Target (y) passed to loss function.
 
         Keyword Arguments:
-            batch_size {int} -- Elemets in each batch (default: {256})
+            batch_size {int} -- Elements in each batch (default: {256})
             epochs {int} -- Number of epochs (default: {1})
             callbacks {list} -- list of callbacks (default: {None})
             verbose {bool} -- Print progress (default: {True})
